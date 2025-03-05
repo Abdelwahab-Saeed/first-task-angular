@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.component.css',
 })
 export class PortfolioComponent {
+  fields: string[] = [
+    'web design',
+    'mobile design',
+    'logo design',
+    'web application development',
+    'mobile application development',
+    'pwa development'
+  ];
 }

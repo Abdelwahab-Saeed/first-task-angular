@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './hero.component.css'
 })
 export class HeroComponent {
+  myName : string = 'Abdelwahab Saeed';
+  myTitle :string = 'Full-stack web developer';
 }

@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
+  description :string = 'I am a passionate developer with experience in front-end development and Angular';
 
 }
